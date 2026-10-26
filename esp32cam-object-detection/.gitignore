@@ -1,0 +1,21 @@
+# Arduino build output
+build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Never commit credentials or private files
+secrets.h
+credentials.h
+*.env
+
+# Trained model library (train your own, see model/README.md)
+model/*.zip
+model/*_inferencing/
